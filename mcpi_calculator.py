@@ -32,7 +32,7 @@ input_pad = {14: '1', 16: '2', 22: '3',
              121:'*'}
 
 
-# Set all the pixels in the display to dark. Empties the display list.
+# Set all the pixels in the display to dark. Empty the display list.
 def clear_display():
     for x in range(-1, DISPLAY_MAX_WIDTH):
         for y in range(-1, 12):
